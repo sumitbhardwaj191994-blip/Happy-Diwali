@@ -1,0 +1,8 @@
+{
+  "name": "diya-wall",
+  "version": "1.0.0",
+  "description": "Live Diwali wishes wall: phones submit wishes, the main screen lights diyas.",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

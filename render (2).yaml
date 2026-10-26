@@ -1,0 +1,12 @@
+# Render "Blueprint": push this folder to GitHub, then Render > New > Blueprint and pick the repo.
+services:
+  - type: web
+    name: diwali-wall
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: ADMIN_KEY
+        generateValue: true
